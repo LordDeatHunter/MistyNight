@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "mistynight",
+  "version": "${version}",
+  "name": "Misty Night",
+  "description": "Challenge the night!",
+  "authors": [
+    "LordDeatHunter"
+  ],
+  "contact": {
+    "homepage": "https://github.com/LordDeatHunter/mistynight",
+    "sources": "https://github.com/LordDeatHunter/mistynight",
+    "issues": "https://github.com/LordDeatHunter/mistynight/issues"
+  },
+  "license": "MIT License",
+  "icon": "assets/mistynight/mistynight_icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "wraith.mistynight.MistyNight"
+    ]
+  },
+  "mixins": [
+    "mistynight.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.8",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  }
+}
